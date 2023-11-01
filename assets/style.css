@@ -70,4 +70,11 @@ img {
 }
 .neyru p button {
   font-size: 20pt;
+  transition: 0.5s;
+}
+.neyru p button:hover {
+  font-size: 30pt;
+  transition: 0.5s;
+  background-color: blue;
+  color: white;
 }
