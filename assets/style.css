@@ -54,3 +54,20 @@ img {
   border: 3px solid white;
   border-radius: 10px;
 }
+.goblin p {
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-size: 20pt;
+  background-color: blue;
+  color: white;
+}
+.neyru p {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.neyru p button {
+  font-size: 20pt;
+}
