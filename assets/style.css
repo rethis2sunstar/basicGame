@@ -48,9 +48,10 @@ img {
 .cardContain {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .card {
-  width: 50%;
+  width: 30%;
   border: 3px solid white;
   border-radius: 10px;
 }

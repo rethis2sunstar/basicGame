@@ -11,22 +11,29 @@
     <section class="mainEl">
       <section class="field">
         <section class="goblin" id="goblin">
-          <img src="./assets/gobo.png" alt="goblin character" />
           <p>status</p>
+          <img src="./assets/gobo.png" alt="goblin character" />
         </section>
         <section class="neyru" id="neyru">
-          <img src="./assets/neyruGame.png" alt="Neyru" />
           <p>
-            <button>Attack</button> <button>Defend</button>
-            <button>Heal</button>
+            <button id="atkBtn">Attack</button>
+            <button id="defBtn">Defend</button>
+            <button id="healBtn">Heal</button>
           </p>
+          <img src="./assets/neyruGame.png" alt="Neyru" />
         </section>
       </section>
       <section class="statBar">
         <section class="barTitle">Battle Stats</section>
         <section class="cardContain">
-          <section class="card card1">Goblin</section>
-          <section class="card card2">Neyru</section>
+          <section class="card card1" id="card1">Goblin</section>
+          <section class="card cardText">
+            <section id="cardText">
+              Neyru stands confidently against the goblin
+            </section>
+            <section id="goblinText">The Goblin hesitates</section>
+          </section>
+          <section class="card card2" id="card2">Neyru</section>
         </section>
       </section>
     </section>
